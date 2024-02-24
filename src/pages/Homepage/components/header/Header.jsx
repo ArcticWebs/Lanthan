@@ -6,7 +6,7 @@ const Header = () => {
     <header className={styles.mainHeader}>
       <section className={clsx("container", styles.mainHeaderSection)}>
         <div className={styles.mainHeaderContent}>
-          <h1>Z pasją dbamy o Twoją elektronikę.</h1>
+          <h1>Pasja do elektroniki od 15 lat</h1>
           <p>Nie wierz nam na słowo - sprawdź</p>
           <a href="#services" className={styles.mainHeaderButton}>
             Oferta
