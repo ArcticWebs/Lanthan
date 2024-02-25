@@ -3,7 +3,7 @@ import clsx from "clsx";
 import logo from "assets/Logo.png";
 import { navOptions } from "data/navOptions";
 import { nanoid } from "nanoid";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
