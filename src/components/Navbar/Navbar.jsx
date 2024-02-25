@@ -9,6 +9,14 @@ import { IoClose, IoMenu } from "react-icons/io5";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  useEffect(() => {
+    if (window.innerWidth <= 1024 && showMenu) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "initial";
+    }
+  });
+
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
